@@ -17,8 +17,9 @@
 
 ## Example
 ```JS
+var avul = require('avul');
 
-mc = Class(function (self, args) {
+mc = avul.Class(function (self, args) {
 	self.a = args[0];
 	self.f = function () {
 		return self.a * 2;
@@ -26,8 +27,8 @@ mc = Class(function (self, args) {
 })
 
 mo = new mc(5)
-puts(equals(add(mo.f(), 8), 18))
-puts(nothing())
+avul.puts(avul.equals(avul.add(mo.f(), 8), 18))
+avul.puts(avul.nothing())
 
 // true
 // null
