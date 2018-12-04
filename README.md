@@ -15,7 +15,7 @@
 | equals(a,b)  | returns a == b   |
 | Class(x)     | creates a class  |
 
-### Example of Class
+## Example
 ```JS
 
 mc = Class(function (self, args) {
