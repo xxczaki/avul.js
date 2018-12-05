@@ -1,0 +1,36 @@
+<img src="https://i.imgur.com/rB06ShL.png">
+
+<h4>avul.js - a very useless library</h4>
+
+<h2>Features</h2>
+
+| Function     |                  |
+| ------------ | ---------------- |
+| nothing()    | returns null     |
+| puts(e)      | console.log(e)   |
+| add(a,b)     | returns a + b    |
+| sub(a,b)     | returns a - b    |
+| mul(a,b)     | returns a * b    |
+| div(a,b)     | returns a / b    |
+| equals(a,b)  | returns a == b   |
+| Class(x)     | creates a class  |
+
+<h2>Example</h2>
+```JS
+var avul = require('avul');
+
+mc = avul.Class(function (self, args) {
+	self.a = args[0];
+	self.f = function () {
+		return self.a * 2;
+	}
+})
+
+mo = new mc(5)
+avul.puts(avul.equals(avul.add(mo.f(), 8), 18))
+avul.puts(avul.nothing())
+
+// true
+// null
+
+```
