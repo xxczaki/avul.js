@@ -1,12 +1,12 @@
 {
   "name": "avul",
   "author": "maviek",
-  "main": "node_modules/avul.js",
+  "main": "src/avul.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/maviek/avul.js.git"
   },
-  "version": "0.2.2",
+  "version": "0.2.5",
   "devDependencies": {
     "grunt": "~0.4.2",
     "load-grunt-tasks": "~0.2.0"
