@@ -1,7 +1,7 @@
 {
   "name": "avul",
   "author": "maviek",
-  "main": "avul.js",
+  "main": "node_modules/avul.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/maviek/avul.js.git"
