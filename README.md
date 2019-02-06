@@ -2,6 +2,11 @@
 
 #### avul.js - a very useless library
 
+## Instalation
+```
+npm install avul
+```
+
 ## Features
 
 | Function     |                  |
