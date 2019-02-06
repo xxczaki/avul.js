@@ -8,8 +8,13 @@ npm install avul
 ```
 
 ## Testing
+### Linux
 ```
 sh test.sh
+```
+### Windows
+```
+test.bat
 ```
 
 ## Features
