@@ -7,6 +7,11 @@
 npm install avul
 ```
 
+## Testing
+```
+sh test.sh
+```
+
 ## Features
 
 | Function     |                  |
