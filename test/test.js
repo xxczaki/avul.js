@@ -404,26 +404,62 @@ if(avul.nothing() != null)
 
 if(avul.add(5, 8) != 13)
     failed++;
+if(avul.add(5, 9) != 14)
+    failed++;
+if(avul.add(6, 5) != 11)
+    failed++;
+if(avul.add(8, 9) != 17)
+    failed++;
 
 if(avul.sub(10, 8) != 2)
+    failed++;
+if(avul.sub(11, 8) != 3)
+    failed++;
+if(avul.sub(12, 8) != 4)
+    failed++;
+if(avul.sub(13, 8) != 5)
     failed++;
 
 if(avul.mul(5, 4) != 20)
     failed++;
+if(avul.mul(5, 5) != 25)
+    failed++;
+if(avul.mul(8, 8) != 64)
+    failed++;
+if(avul.mul(3, 4) != 12)
+    failed++;
 
 if(avul.div(10, 2) != 5)
+    failed++;
+if(avul.div(20, 2) != 10)
+    failed++;
+if(avul.div(12, 3) != 4)
+    failed++;
+if(avul.div(8, 4) != 2)
     failed++;
 
 if(avul.equals(5, 5) != true)
     failed++;
+if(avul.equals(8, 8) != true)
+    failed++;
+if(avul.equals(9, 9) != true)
+    failed++;
+if(avul.equals(4, 4) != true)
+    failed++;
 
 if(avul.equals(5, 8) != false)
+    failed++;
+if(avul.equals(4, 9) != false)
+    failed++;
+if(avul.equals(6, 7) != false)
+    failed++;
+if(avul.equals(2, 4) != false)
     failed++;
 
 if(testClass() != true)
     failed++;
 
 console.log('===== AVUL.JS =====')
-console.log('Passed: ' + (8 - failed))
+console.log('Passed: ' + (26 - failed))
 console.log('Failed: ' + (failed))
 console.log('Finished in ' + (Math.round(((time() - t)*1000))) + ' ms')
