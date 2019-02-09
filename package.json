@@ -11,6 +11,9 @@
     "grunt": "~0.4.2",
     "load-grunt-tasks": "~0.2.0"
   },
+  "dependencies": {
+    "is-odd": "~3.0.1"
+  },
   "bugs": {
       "url": "https://github.com/maviek/avul.js/issues"
     },
