@@ -33,7 +33,7 @@ test.bat
 
 ## Example
 ```JS
-var avul = require('avul');
+const avul = require('avul');
 
 mc = avul.Class(function (self, args) {
 	self.a = args[0];
@@ -46,7 +46,7 @@ mo = new mc(5)
 avul.puts(avul.equals(avul.add(mo.f(), 8), 18))
 avul.puts(avul.nothing())
 
-// true
-// null
+//=> true
+//=> null
 
 ```
