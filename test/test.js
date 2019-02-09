@@ -384,6 +384,7 @@ let time = () => new Date().getTime() / 1000
 let t = time()
 
 const avul = require('avul');
+const isOdd = require('is-odd')
 
 let failed = 0;
 
@@ -459,7 +460,16 @@ if(avul.equals(2, 4) != false)
 if(testClass() != true)
     failed++;
 
+if(avul.is_isOdd(isOdd) != true)
+    failed++;
+if(avul.is_isOdd(2137) != false)
+    failed++;
+if(avul.is_isOdd('isOdd') != false)
+    failed++;
+if(avul.is_isOdd(NaN) != false)
+    failed++;
+
 console.log('===== AVUL.JS =====')
-console.log('Passed: ' + (26 - failed))
+console.log('Passed: ' + (30 - failed))
 console.log('Failed: ' + (failed))
 console.log('Finished in ' + (Math.round(((time() - t)*1000))) + ' ms')
