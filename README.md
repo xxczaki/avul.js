@@ -45,8 +45,12 @@ mc = avul.Class(function (self, args) {
 mo = new mc(5)
 avul.puts(avul.equals(avul.add(mo.f(), 8), 18))
 avul.puts(avul.nothing())
+avul.puts(avul.is_isOdd(isOdd))
+avul.puts(avul.is_isOdd(12345))
 
 //=> true
 //=> null
+//=> true
+//=> false
 
 ```
