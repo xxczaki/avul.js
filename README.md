@@ -29,6 +29,7 @@ test.bat
 | div(a,b)     | returns a / b    |
 | equals(a,b)  | returns a == b   |
 | Class(x)     | creates a class  |
+| is_isOdd(f)  | returns true if f equals isOdd |
 
 ## Example
 ```JS
