@@ -1,4 +1,4 @@
-<img src="https://github.com/maviek/avul.js/blob/master/logo.png">
+<img src="https://raw.githubusercontent.com/maviek/avul.js/master/logo.png">
 
 #### avul.js - a very useless library
 
